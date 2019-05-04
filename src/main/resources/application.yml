@@ -1,0 +1,11 @@
+server:
+   port: 8081
+   path: /hello
+
+spring:
+   datasource:
+       name: root
+       url: jdbc:mysql://localhost:3306/crm?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+       username: root
+       password: 123
+       drive-class-name: com.mysql.cj.jdbc.Driver
